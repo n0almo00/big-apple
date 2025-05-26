@@ -1,13 +1,21 @@
 import { useState } from 'react'
 import './index.css'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import Main from './components/Main'
+import Nav from './components/Nav'
+
 
 function App() {
   
 
   return (
-    <>
-      <h1>Welcome to Big Apple!</h1>
-    </>
+    <div className='container'>
+      <Nav />
+      <Header />
+      <Main />
+      <Footer />
+    </div>
   )
 }
 
