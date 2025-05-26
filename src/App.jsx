@@ -1,21 +1,21 @@
 import { useState } from 'react'
 import './index.css'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import Main from './components/Main'
-import Nav from './components/Nav'
+import HomePage from './pages/HomePage'
+import Booking from './pages/Booking'
+
+import { Route, Routes, BrowserRouter } from 'react-router-dom'
 
 
 function App() {
   
 
   return (
-    <div className='container'>
-      <Nav />
-      <Header />
-      <Main />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<HomePage />}/>
+        <Route path='/booking' element={<Booking />}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

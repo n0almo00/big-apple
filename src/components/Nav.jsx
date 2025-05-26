@@ -1,25 +1,28 @@
+import { Link } from "react-router-dom"
+import HomePage from "../pages/HomePage"
+
 export default function Nav() {
     return (
         <nav>
                 <img src="images/Logo.svg" alt="logo"/>
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <Link to='/'>Home</Link>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <Link href="#">About</Link>
                     </li>
                     <li>
-                        <a href="#">Menu</a>
+                        <Link href="#">Menu</Link>
                     </li>
                     <li>
-                        <a href="#">Reservations</a>
+                        <Link to='/booking'>Reservations</Link>
                     </li>
                     <li>
-                        <a href="#">Order Online</a>
+                        <Link href="#">Order Online</Link>
                     </li>
                     <li>
-                        <a href="#">Login</a>
+                        <Link href="#">Login</Link>
                     </li>
                 </ul>
             </nav>

@@ -53,6 +53,15 @@ header {
     grid-column: 1 / span 12;
     display: flex;
     background-color: #495E57;
+    align-items: center;
+    justify-content: center;
+
+}
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+    
+  }
 }
 
 footer {
@@ -80,7 +89,9 @@ footer {
  {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 50px;  
+    margin: 1rem auto;  
+    max-width: 100vh;
+    
 }
 @media (max-width: 700px) {
   .specials-mid {
@@ -102,7 +113,9 @@ footer {
 .specials-top {
     display: flex;
     justify-content: space-between;
-    margin: 50px;
+    margin: 1rem auto; 
+    max-width: 1000px;
+    width: 90%;   
 }
 
 .review {
@@ -240,9 +253,11 @@ header  img {
 }
 
 .about {
-    margin: 80px 200px;
+    margin: 80px auto;
     display: flex;
-    gap: 50px
+    gap: 50px;
+    max-width: 1200px;
+    
 }
 
 .about-pics {

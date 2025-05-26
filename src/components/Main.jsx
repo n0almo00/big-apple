@@ -1,6 +1,18 @@
 export default function Main() {
     return (
     <main>
+        <header>
+            <div className="banner">
+                <div className="title">
+                    <h1>Little Lemon</h1>
+                    <h3>Chicago</h3>
+                </div>
+                <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
+                <a>Reserve a Table</a>
+            </div>
+            
+            <img src="images/restauranfood.jpg" alt="hero photo" />
+        </header>
         <section className="specials">
             <div className="specials-top">
                 <h2>This Week's Specials!</h2>
