@@ -9,19 +9,19 @@ export default function Nav() {
                     <li>
                         <Link to='/'>Home</Link>
                     </li>
-                    <li>
+                    <li className="line-through">
                         <Link href="#">About</Link>
                     </li>
-                    <li>
+                    <li className="line-through">
                         <Link href="#">Menu</Link>
                     </li>
                     <li>
                         <Link to='/booking'>Reservations</Link>
                     </li>
-                    <li>
+                    <li className="line-through">
                         <Link href="#">Order Online</Link>
                     </li>
-                    <li>
+                    <li className="line-through">
                         <Link href="#">Login</Link>
                     </li>
                 </ul>

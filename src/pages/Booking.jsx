@@ -1,12 +1,12 @@
-
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import BookingForm from '../components/BookingForm'
 
 export default function Booking() {
     return (
         <div className='container'>
                 <Nav />
-                <h1>This is the booking page</h1>
+                <BookingForm />
                 <Footer />
         </div>
     )
